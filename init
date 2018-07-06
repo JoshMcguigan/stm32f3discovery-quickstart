@@ -1,0 +1,8 @@
+#!/bin/bash
+read -p 'Project Name: ' name
+cargo new $name
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cp -r $DIR/.cargo ./$name/.cargo
+cp $DIR/.gdbinit ./$name/.gdbinit
+cp $DIR/src/main.rs ./$name/src/main.rs
+cat $DIR/dependencies >> ./$name/Cargo.toml

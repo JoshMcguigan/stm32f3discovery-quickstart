@@ -1,0 +1,7 @@
+cortex-m = "*"
+cortex-m-rt = "*"
+panic-semihosting = "*"
+
+[dependencies.f3]
+features = ["rt"]
+version = "*"
