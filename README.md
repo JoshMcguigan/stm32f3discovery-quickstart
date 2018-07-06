@@ -20,6 +20,8 @@ $ cargo run
 
 The `init` script asks only for a project name, and then it generates a new Cargo project and sets everything up to compile for the STM32F3DISCOVERY.
 
+For a more details, check out this [introductory blog post](https://www.joshmcguigan.com/blog/stm32f3discovery-quickstart/).
+
 ## Requirements
 
 If you are new to embedded development in Rust, start by [setting up a development environment](https://japaric.github.io/discovery/03-setup/README.html).
